@@ -9,22 +9,22 @@ function Arifmetics(arr1, arr2) {
   function Render(term) {
     this.inputPos = (term*39+50 - 15)/2;
     this.input = document.createElement('input');
-    this.input.className = 'edge__input';
+    this.input.className = 'axis__input';
     this.input.type = 'text';
     this.arrow = document.createElement('div');
-    this.arrow.className = 'edge__arrow';
+    this.arrow.className = 'axis__arrow';
     this.arrow.style.width = term*39  + 'px';
     this.arrow.style.height = term*39/6 + 'px';
     if (render1) {
       this.input.style.left = a*39 + this.inputPos  + 'px';
       this.arrow.style.left = a*39 + 35 + 'px';
-      edge.appendChild(this.input);
-      edge.appendChild(this.arrow);
+      axis.appendChild(this.input);
+      axis.appendChild(this.arrow);
     }  else {
       this.input.style.left = this.inputPos + 'px';
       this.arrow.style.left = '35px';
-      edge.appendChild(this.input);
-      edge.appendChild(this.arrow);
+      axis.appendChild(this.input);
+      axis.appendChild(this.arrow);
     }
     this.accept = function() {
         this.input.style.color = '#000';
@@ -57,9 +57,9 @@ function Arifmetics(arr1, arr2) {
         document.getElementById(val1).style.background = "#fff";
         document.getElementById('summ').remove();
         var final = document.createElement('input');
-        final.className = 'edge__summ';
+        final.className = 'axis__summ';
         final.id = c;
-        document.querySelector('.edge__txt').appendChild(final);
+        document.querySelector('.axis__txt').appendChild(final);
         final.focus();
         Check(final, c);
       }
