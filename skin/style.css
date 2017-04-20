@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.edge input {
+  outline: none;
+}
+
 .edge__input {
   height: 30px;
   width: 30px;
@@ -15,12 +19,13 @@
   font-size: 18px;
   border-radius: 5px;
   text-align: center;
+  transition: 0.4s;
 }
 
 .edge__summ {
   font-size: 26px;
-  height: 40px;
-  width: 60px;
+  height: 38px;
+  width: 38px;
   border-radius: 5px;
 }
 
@@ -42,7 +47,7 @@
   position: absolute;
 }
 
-.edge__input:disabled {
+.edge__input:disabled, .edge__summ:disabled {
   background: transparent;
   border: none;
 }
