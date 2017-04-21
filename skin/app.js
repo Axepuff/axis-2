@@ -10,7 +10,7 @@ function Arifmetics(arr1, arr2) {
     if(event.keyCode == 13) {
        event.preventDefault();
     }
-  }
+  });
   function Render(term) {
     this.inputPos = (term*39+50 - 15)/2;
     this.input = document.createElement('input');
