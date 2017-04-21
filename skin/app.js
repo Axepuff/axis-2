@@ -6,6 +6,10 @@ function Arifmetics(arr1, arr2) {
   text.children[0].id = a;
   text.children[1].innerHTML = b;
   text.children[1].id = b;
+  form.addEventListener('keydown', function(event) {
+  if(event.keyCode == 13) {
+     event.preventDefault();
+  }
   function Render(term) {
     this.inputPos = (term*39+50 - 15)/2;
     this.input = document.createElement('input');
