@@ -1,0 +1,901 @@
+
+
+	<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Загородный комплекс "Яхонтовый Лес" расположен в Московской области, Ногинского района, 1км. южнее д. Жилино, в живописном местечке Природный курорт "Яхонты"." />
+<meta name="keywords" content="карты, расположение, адрес, «Яхонтовый лес»" />
+<meta name="google-site-verification" content="Fc94EPMb03HiupI5pxKG2uCWRManB8naQu79IUGZCqc" />
+<meta name="robots" content="noyaca">
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/_css/_index.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/_css/_main.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/_css/_slider-default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/_css/_slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/_css/jquery.selectbox.css" type="text/css" />
+<link rel="stylesheet" href="/_css/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="/_css/ui.selectmenu.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/_bxslider/jquery.bxslider.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/_fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link href="/_css/jquery.selectbox.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/_js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/_js/events.js"></script>
+<script type="text/javascript">
+        jsHover = function() {
+        var hEls = document.getElementById("menu").getElementsByTagName("li");
+        for (var i=0, len=hEls.length; i<len; i++) {
+        hEls[i].onmouseover=function() { this.className+=" jshover"; }
+        hEls[i].onmouseout=function() { this.className=this.className.replace(" jshover", ""); }
+        }
+        }
+        if (window.attachEvent && navigator.userAgent.indexOf("Opera")==-1) window.attachEvent("onload", jsHover);
+</script>
+
+<script>
+jQuery(function($){
+
+document.getElementById('feedback-form').onsubmit = function(){
+  var http = new XMLHttpRequest();
+  http.open("POST", "http://apartamenty-yahonty.ru/feedback.php", true);
+  http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  http.send("nameFF=" + this.nameFF.value + "&contactFF=" + this.contactFF.value);
+  http.onreadystatechange = function() {
+    if (http.readyState == 4 && http.status == 200) {
+      alert('Ваше сообщение получено.\nНаши специалисты свяжутся с вами в ближайшее время.');
+	  ing_events({category:'forms',action:'submit',label:'callback',ya_label:'callback'});
+jQuery('#feedback-form')[0].reset();
+return false;
+
+    }
+  }
+  http.onerror = function() {
+    alert('Извините, данные не были переданы');
+  }
+  return false;
+}
+
+$(function(){
+var closerator = function(){
+setTimeout(function(){
+$.arcticmodal('close');
+},300)};
+var frm = document.getElementById('feedback-form');
+frm.addEventListener('submit',closerator);
+});
+
+});
+</script>
+
+<title>
+Схема проезда в комплекс Яхонтовый лес</title>
+
+<script src="/_js/modal/jquery.arcticmodal-0.3.min.js"></script>
+<link rel="stylesheet" href="/_js/modal/jquery.arcticmodal-0.3.css">
+<link rel="stylesheet" href="/_js/modal/themes/simple.css">
+
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+		<div id="pattern-left-top"></div>
+		<div id="pattern-right-top"></div>
+		</div>
+		<div class="pattern-right-middle" style='top: 300px;'></div>
+		<div id="pattern-left-middle" style='top: 40%;'></div>
+		<div class="pattern-right-middle" style='bottom: 0px;'></div>
+		<div id="main_content">
+			<div id='logoline'>
+				<div id='logo'>
+				<a href='/'><img src='/_images/_main/logo-1.png' alt='«Яхонтовый лес» комплекс здоровья и отдыха в Московской области'></a></div>
+				<a href="http://apartamenty-yahonty.ru/_content/_kontakti.php" class="header-address">МО, Ногинский район, 1км. южнее д. Жилино</a>
+				<div id="top-icons"></div>
+								<div id='phone_head'>
+				
+				<table>
+				<tbody><tr>
+				<td>Продажа</td><td>(495) 960-33-19</td>
+				</tr>
+				<tr>
+				<td>Аренда</td><td>(909) 947-59-59</td>
+				</tr>
+				</tbody>
+				</table>
+
+<span id="#example1" class="m-dotted phone_top_order" onclick="$('#exampleModal1').arcticmodal()"><span>Заказать обратный звонок</span></span>
+	<br>
+	<a href="/_content/_oplata_uslug.php" class="red_green_btn online_payment_uk">Онлайн оплата услуг УК</a>
+					<div class="g-hidden">
+						<div class="box-modal" id="exampleModal1">
+							<div class="box-modal_close arcticmodal-close">закрыть</div>
+<form method="POST" id="feedback-form">
+<table width="100%">
+<tr>
+<td>Имя<span class="red">*</span>:</td><td><input type="text" name="nameFF" required x-autocompletetype="name"></td>
+</tr>
+<tr>
+<td>Телефон<span class="red">*</span>:</td><td><input type="phone" name="contactFF" required x-autocompletetype="email"></td>
+<tr>
+<td colspan="2" class="rezerv_btn2" align="center">
+<input type="submit" value="Отправить">
+</td>
+</tr>
+</table>
+</form>
+
+
+						</div>
+					</div>
+
+
+
+				</div>
+
+			</div>
+			<div id='menuline' style="margin: 0 0 2px 3px;">
+			
+												
+							<ul id="menu">
+							 	<li style="padding: 2px 20px;">
+							 		<a href='#'>
+										О комплексе
+									</a>
+									<ul>
+										<li><a href='/_content/_informatsiya_o_komplexe.php'>Информация</a></li>
+										<li><a href='/_content/_voprosy_i_otvety.php'>Вопросы&nbsp;и&nbsp;ответы</a></li>
+										<li><a href='/_content/_news.php'>Новости</a></li>
+																														<li><a href='/_content/_reviews.php'>Отзывы</a></li>
+									</ul>
+							 	</li>
+								<li style="padding: 2px 20px;">
+									<a href='#'>
+										Продажа недвижимости
+									</a>
+									<ul>
+										<li><a href='/_content/_prodazha_apartamentov.php'>Номера в стандартных корпусах</a></li>
+										<li><a href='/_content/_apartamenty_lux.php'>Номера в корпусах класса «Люкс»</a></li>
+										<li><a href='/_content/_prodazha_townhousov.php'>Таунхаусы</a></li>
+									</ul>
+								</li>
+								<li style="padding: 2px 20px;">
+									<a href='#'>
+										Аренда недвижимости
+									</a>
+									<ul>
+										<li><a href='/_content/_apartamenty-v-arendu.php'>Номера в стандартных и Люкс-корпусах</a></li>
+										<li><a href='/_content/_arenda_townhousov.php'>Таунхаусы</a></li>
+										<li><a href='/_content/_priglashaem_v_banyu.php'>Русская баня</a></li>
+									</ul>
+								</li>
+								<li style="padding: 2px 20px;">
+									<a href='/_content/_generalplan.php'>
+										План курорта
+									</a>
+								</li>
+								<li style="padding: 2px 20px;">
+									<a href='/_content/_foto-kompleksa-apartamentov.php'>
+										Фотогалерея
+									</a>
+								</li>
+								<li style="padding: 2px 20px;">
+									<a href='/_content/_kontakti.php'>
+										Адреса и контакты
+									</a>
+								</li>
+							</ul>
+						
+						
+													
+							
+			</div>
+						<div id='inside'>
+				<!-- Исключаем главную страницу и страницу бронирования и главную под тестом-->
+					<!-- start TL search form 2.0 -->
+					<div class="tl-search-form-inner-wrap">
+						<div id="tl-search-form"><a href="http://www.travelline.ru/hotel/">система онлайн-бронирования</a></div>
+						<script type="text/javascript">
+							(function(w){
+								var q=[
+									['setContext', 'TL-INT-apartamenty-yahonty', 'ru'],
+									['embed', 'search-form', {container: 'tl-search-form'}]
+								];
+								var t=w.travelline=(w.travelline||{}),ti=t.integration=(t.integration||{});ti.__cq=ti.__cq?ti.__cq.concat(q):q;
+								if (!ti.__loader){ti.__loader=true;var d=w.document,p=d.location.protocol,s=d.createElement('script');s.type='text/javascript';s.async=true;s.src=(p=='https:'?p:'http:')+'//ibe.tlintegration.com/integration/loader.js';(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(s);}
+							})(window);
+						</script>
+						<!-- end TL search form 2.0 -->
+					</div>
+				
+
+<SCRIPT src="http://api-maps.yandex.ru/1.1/index.xml?key=AJAJuE4BAAAA8EymJQIAalXjeycj7k31SOJXZLfziqgfWywAAAAAAAAAAAAhdgfDXS2XejgI_2lFsdVRpwti1A==" type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+       YMaps.jQuery(function () {
+            var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+            map.setCenter(new YMaps.GeoPoint(38.081946,55.810274), 10);
+ 
+var zoom = new YMaps.Zoom({
+                customTips: [
+                    { index: 1, value: "Мелко" },
+                    { index: 16, value: "Крупно" }
+                ]
+            });
+            map.addControl(zoom);
+            var s = new YMaps.Style();
+            s.iconStyle = new YMaps.IconStyle();
+            s.iconStyle.href = "/_images/_rasp/footericon.png";
+            s.iconStyle.size = new YMaps.Point(70, 46);
+            s.iconStyle.offset = new YMaps.Point(-15, -37);
+            var k = new YMaps.Style();
+            k.iconStyle = new YMaps.IconStyle();
+            k.iconStyle.href = "/_images/_rasp/office-building.png";
+            k.iconStyle.size = new YMaps.Point(32, 32);
+            k.iconStyle.offset = new YMaps.Point(-15, -37);
+            // Создание метки и добавление ее на карту
+            var placemark = new YMaps.Placemark(new YMaps.GeoPoint(37.629062,55.744723), {style: k});
+            placemark.name = "Офис \"Яхонтовый Лес\"";
+            placemark.description = "Офис комплекса \"Яхонтовый Лес\"<br>";
+            placemark.setBalloonContent("<table><tr><td colspan=2><p align=center><b>Застройщик ООО \"Авантель-Инвест\"</b></p></td></tr><tr><td rowspan=4><img src=\"/_images/_rasp/office-building.png\"></td><td>&nbsp;&nbsp;Офис \"Авантель-Инвест\"</td></tr><tr><td>&nbsp;&nbsp;<b>Телефон:</b> +7 (495) 960-33-19</td></tr><tr><td>&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;<b>Адрес:</b> Москва,<br>&nbsp;&nbsp;Большой Овчинниковский переулок, дом 26,<br>&nbsp;&nbsp;строение 5    </td></tr></table>");
+            map.addOverlay(placemark);
+ 
+            var placemark = new YMaps.Placemark(new YMaps.GeoPoint(38.514298,55.895237), {style: s});
+            placemark.name = "Апартаменты \"Яхонтовый Лес\"";
+            placemark.description = "Комплекс \"Яхонтовый Лес\"";
+placemark.setBalloonContent("<table><tr><td colspan=2><p align=center><b>Комплекс апартаментов \"Яхонтовый Лес\"</b></p></td></tr><tr><td rowspan=2><img src=\"/_images/_rasp/footericon.png\"></td><td>&nbsp;&nbsp;<b>Телефон:</b><br>&nbsp;&nbsp;+7 (909) 947-59-59</td></tr><tr><td>&nbsp;&nbsp;<b>Адрес:</b>&nbsp;&nbsp;Московская область,<br>&nbsp;&nbsp;Ногинский район,<br>&nbsp;&nbsp;южнее 1км. д. Жилино,<br>&nbsp;&nbsp;Природный курорт Яхонты.</td></tr></table>");
+ 
+            map.addOverlay(placemark);
+ 
+ YMaps.Styles.add("constructor#pmgnmPlacemark", {
+            iconStyle : {
+                href : "/_images/_rasp/blue-flag.png",
+                size : new YMaps.Point(20,20),
+                offset: new YMaps.Point(-8,-20)
+            }
+        });
+ 
+ 
+        YMaps.Styles.add("constructor#pmlbmPlacemark", {
+            iconStyle : {
+                href : "/_images/_rasp/blue-flag.png",
+                size : new YMaps.Point(20,20),
+                offset: new YMaps.Point(-8,-20)
+            }
+        });
+ 
+YMaps.Styles.add("constructor#Placemark2", {
+            iconStyle : {
+                href : "/_images/_rasp/green-flag.png",
+                size : new YMaps.Point(20,20),
+                offset: new YMaps.Point(-8,-20)
+            }
+        });
+ 
+YMaps.Styles.add("constructor#Placemark3", {
+            iconStyle : {
+                href : "/_images/_rasp/red-flag.png",
+                size : new YMaps.Point(20,20),
+                offset: new YMaps.Point(-8,-20)
+            }
+        });
+ 
+ 
+ 
+        YMaps.Styles.add("constructor#FF3732c85Polyline", {
+            lineStyle : {
+                strokeColor : "2f7fff",
+                strokeWidth : 5
+            }
+        });
+ 
+YMaps.Styles.add("constructor#249234c85Polyline", {
+            lineStyle : {
+                strokeColor : "77ca0f",
+                strokeWidth : 5
+            }
+        });
+ 
+YMaps.Styles.add("constructor#f832ffc85Polyline", {
+            lineStyle : {
+                strokeColor : "d91b01",
+                strokeWidth : 5
+            }
+        });
+ 
+ 
+ 
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(37.840849,55.813262), "constructor#pmgnmPlacemark", "Съезд с МКАДа<br>на Щелковское шоссе"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(37.986354,55.861328), "constructor#pmgnmPlacemark", "Поворот направо<br>на Лосино-Петровский"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.164774,55.887264), "constructor#pmgnmPlacemark", "Поворот направо<br>по указателю<br>\"Лосино-Петровский, Монино\""));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.209084,55.864043), "constructor#pmlbmPlacemark", "Поворот налево<br>возле Храма, голубого<br>цвета"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.437684,55.869479), "constructor#pmgnmPlacemark", "Въезжаем в Ногинск,<br>поворот направо<br>на светофоре"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.33885,55.845202), "constructor#pmgnmPlacemark", "Въезжаем в Ельню,<br>движемся прямо по указателю \"Ногинск\""));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.44057,55.865986), "constructor#pmgnmPlacemark", "Поворот налево<br>на светофоре"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.467284,55.875992), "constructor#pmgnmPlacemark", "По круговому движению-<br>левее и прямо 4 км"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.330335,55.83206), "constructor#Placemark2", "Съезд с шоссе<br>в сторону г.Ельня"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(37.845208,55.777107), "constructor#Placemark2", "Съезд с МКАДа<br>на Горьковское шоссе"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.424651,55.824969), "constructor#Placemark3", "Продолжайте движение<br>по Горьковскому шоссе"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.49904,55.850346), "constructor#Placemark3", "Съезд с шоссе<br>поворот налево"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.498335,55.85085), "constructor#Placemark3", "Поворот налево<br>на Октябрьскую улицу"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.497101,55.861302), "constructor#Placemark3", "Поворот налево<br>на улицу Пугачева"));
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(38.467629,55.873947), "constructor#Placemark3", "Поворот направо,<br>переезд через мост"));
+ 
+       map.addOverlay(createObject("Polyline", [new YMaps.GeoPoint(37.839175,55.813855),
+new YMaps.GeoPoint(37.844427,55.815159),
+new YMaps.GeoPoint(37.850607,55.817768),
+new YMaps.GeoPoint(37.866057,55.821634),
+new YMaps.GeoPoint(37.925967,55.831104),
+new YMaps.GeoPoint(37.935923,55.83236),
+new YMaps.GeoPoint(37.941588,55.833422),
+new YMaps.GeoPoint(37.945021,55.834485),
+new YMaps.GeoPoint(37.947768,55.839122),
+new YMaps.GeoPoint(37.949828,55.840861),
+new YMaps.GeoPoint(37.984846,55.859981),
+new YMaps.GeoPoint(37.986391,55.861236),
+new YMaps.GeoPoint(37.988237,55.860826),
+new YMaps.GeoPoint(37.991069,55.860729),
+new YMaps.GeoPoint(37.994588,55.859885),
+new YMaps.GeoPoint(37.997549,55.859571),
+new YMaps.GeoPoint(38.001541,55.859281),
+new YMaps.GeoPoint(38.002399,55.859257),
+new YMaps.GeoPoint(38.015745,55.859426),
+new YMaps.GeoPoint(38.025788,55.859667),
+new YMaps.GeoPoint(38.034328,55.859909),
+new YMaps.GeoPoint(38.034886,55.860102),
+new YMaps.GeoPoint(38.036559,55.860802),
+new YMaps.GeoPoint(38.038362,55.861284),
+new YMaps.GeoPoint(38.03995,55.861453),
+new YMaps.GeoPoint(38.040636,55.861477),
+new YMaps.GeoPoint(38.054584,55.860657),
+new YMaps.GeoPoint(38.057245,55.86044),
+new YMaps.GeoPoint(38.058832,55.860126),
+new YMaps.GeoPoint(38.063682,55.858267),
+new YMaps.GeoPoint(38.069819,55.855757),
+new YMaps.GeoPoint(38.071278,55.855081),
+new YMaps.GeoPoint(38.074153,55.853367),
+new YMaps.GeoPoint(38.07514,55.852909),
+new YMaps.GeoPoint(38.078316,55.852184),
+new YMaps.GeoPoint(38.079646,55.851557),
+new YMaps.GeoPoint(38.082994,55.849143),
+new YMaps.GeoPoint(38.083595,55.848901),
+new YMaps.GeoPoint(38.087619,55.848299),
+new YMaps.GeoPoint(38.089593,55.847767),
+new YMaps.GeoPoint(38.09088,55.84726),
+new YMaps.GeoPoint(38.092211,55.846633),
+new YMaps.GeoPoint(38.094657,55.845401),
+new YMaps.GeoPoint(38.095215,55.845353),
+new YMaps.GeoPoint(38.103154,55.848419),
+new YMaps.GeoPoint(38.103712,55.848613),
+new YMaps.GeoPoint(38.105815,55.848951),
+new YMaps.GeoPoint(38.112166,55.849023),
+new YMaps.GeoPoint(38.113025,55.84924),
+new YMaps.GeoPoint(38.114055,55.849554),
+new YMaps.GeoPoint(38.115128,55.849964),
+new YMaps.GeoPoint(38.124011,55.85361),
+new YMaps.GeoPoint(38.125728,55.854213),
+new YMaps.GeoPoint(38.131092,55.856338),
+new YMaps.GeoPoint(38.136714,55.858775),
+new YMaps.GeoPoint(38.146413,55.862758),
+new YMaps.GeoPoint(38.150747,55.864544),
+new YMaps.GeoPoint(38.151262,55.864881),
+new YMaps.GeoPoint(38.153193,55.866619),
+new YMaps.GeoPoint(38.153408,55.867029),
+new YMaps.GeoPoint(38.155082,55.87089),
+new YMaps.GeoPoint(38.156584,55.874365),
+new YMaps.GeoPoint(38.157571,55.876415),
+new YMaps.GeoPoint(38.158644,55.878321),
+new YMaps.GeoPoint(38.164781,55.887174),
+new YMaps.GeoPoint(38.165038,55.887174),
+new YMaps.GeoPoint(38.171604,55.885654),
+new YMaps.GeoPoint(38.177698,55.883556),
+new YMaps.GeoPoint(38.178342,55.883266),
+new YMaps.GeoPoint(38.178857,55.882905),
+new YMaps.GeoPoint(38.179415,55.88276),
+new YMaps.GeoPoint(38.192075,55.880637),
+new YMaps.GeoPoint(38.192547,55.88042),
+new YMaps.GeoPoint(38.198641,55.876367),
+new YMaps.GeoPoint(38.199113,55.876198),
+new YMaps.GeoPoint(38.201216,55.875571),
+new YMaps.GeoPoint(38.201774,55.875354),
+new YMaps.GeoPoint(38.203061,55.87434),
+new YMaps.GeoPoint(38.20349,55.874147),
+new YMaps.GeoPoint(38.205078,55.87381),
+new YMaps.GeoPoint(38.205421,55.873568),
+new YMaps.GeoPoint(38.206966,55.872169),
+new YMaps.GeoPoint(38.207782,55.869901),
+new YMaps.GeoPoint(38.207782,55.869611),
+new YMaps.GeoPoint(38.207481,55.867826),
+new YMaps.GeoPoint(38.207868,55.86563),
+new YMaps.GeoPoint(38.208039,55.865364),
+new YMaps.GeoPoint(38.209155,55.864664),
+new YMaps.GeoPoint(38.209241,55.864375),
+new YMaps.GeoPoint(38.209112,55.863989),
+new YMaps.GeoPoint(38.210485,55.864158),
+new YMaps.GeoPoint(38.212846,55.864158),
+new YMaps.GeoPoint(38.21379,55.86423),
+new YMaps.GeoPoint(38.218897,55.864713),
+new YMaps.GeoPoint(38.219541,55.864664),
+new YMaps.GeoPoint(38.219927,55.864495),
+new YMaps.GeoPoint(38.222073,55.86131),
+new YMaps.GeoPoint(38.223703,55.859355),
+new YMaps.GeoPoint(38.225935,55.857617),
+new YMaps.GeoPoint(38.235119,55.852813),
+new YMaps.GeoPoint(38.235634,55.852475),
+new YMaps.GeoPoint(38.237565,55.851316),
+new YMaps.GeoPoint(38.24117,55.850616),
+new YMaps.GeoPoint(38.242414,55.850665),
+new YMaps.GeoPoint(38.245419,55.851099),
+new YMaps.GeoPoint(38.246448,55.851485),
+new YMaps.GeoPoint(38.247006,55.851896),
+new YMaps.GeoPoint(38.250225,55.856989),
+new YMaps.GeoPoint(38.250654,55.857255),
+new YMaps.GeoPoint(38.252457,55.858027),
+new YMaps.GeoPoint(38.255461,55.858582),
+new YMaps.GeoPoint(38.256104,55.858606),
+new YMaps.GeoPoint(38.257778,55.858365),
+new YMaps.GeoPoint(38.258765,55.858075),
+new YMaps.GeoPoint(38.260224,55.857641),
+new YMaps.GeoPoint(38.262542,55.857231),
+new YMaps.GeoPoint(38.263185,55.857013),
+new YMaps.GeoPoint(38.26516,55.856072),
+new YMaps.GeoPoint(38.265632,55.855637),
+new YMaps.GeoPoint(38.265975,55.855179),
+new YMaps.GeoPoint(38.266962,55.852789),
+new YMaps.GeoPoint(38.267477,55.852282),
+new YMaps.GeoPoint(38.268249,55.851727),
+new YMaps.GeoPoint(38.270781,55.850689),
+new YMaps.GeoPoint(38.271854,55.85052),
+new YMaps.GeoPoint(38.273228,55.850471),
+new YMaps.GeoPoint(38.274215,55.850616),
+new YMaps.GeoPoint(38.279665,55.851534),
+new YMaps.GeoPoint(38.281081,55.851727),
+new YMaps.GeoPoint(38.282626,55.851727),
+new YMaps.GeoPoint(38.283699,55.85163),
+new YMaps.GeoPoint(38.296359,55.850013),
+new YMaps.GeoPoint(38.29829,55.849626),
+new YMaps.GeoPoint(38.303097,55.848274),
+new YMaps.GeoPoint(38.303655,55.848009),
+new YMaps.GeoPoint(38.305114,55.847091),
+new YMaps.GeoPoint(38.309319,55.845039),
+new YMaps.GeoPoint(38.310907,55.844508),
+new YMaps.GeoPoint(38.313096,55.844073),
+new YMaps.GeoPoint(38.319276,55.843977),
+new YMaps.GeoPoint(38.32022,55.844001),
+new YMaps.GeoPoint(38.338974,55.845184),
+new YMaps.GeoPoint(38.340261,55.845474),
+new YMaps.GeoPoint(38.345154,55.84726),
+new YMaps.GeoPoint(38.347128,55.847792),
+new YMaps.GeoPoint(38.372448,55.852572),
+new YMaps.GeoPoint(38.378113,55.853006),
+new YMaps.GeoPoint(38.380516,55.85291),
+new YMaps.GeoPoint(38.385923,55.852379),
+new YMaps.GeoPoint(38.386953,55.852379),
+new YMaps.GeoPoint(38.394335,55.853682),
+new YMaps.GeoPoint(38.396137,55.85373),
+new YMaps.GeoPoint(38.399656,55.853924),
+new YMaps.GeoPoint(38.401545,55.854358),
+new YMaps.GeoPoint(38.404978,55.855903),
+new YMaps.GeoPoint(38.405836,55.856627),
+new YMaps.GeoPoint(38.414848,55.864158),
+new YMaps.GeoPoint(38.417423,55.865799),
+new YMaps.GeoPoint(38.419569,55.866957),
+new YMaps.GeoPoint(38.422745,55.868163),
+new YMaps.GeoPoint(38.425062,55.868936),
+new YMaps.GeoPoint(38.426865,55.869273),
+new YMaps.GeoPoint(38.428495,55.869177),
+new YMaps.GeoPoint(38.430126,55.869032),
+new YMaps.GeoPoint(38.43313,55.868694),
+new YMaps.GeoPoint(38.434675,55.868743),
+new YMaps.GeoPoint(38.437765,55.869515),
+new YMaps.GeoPoint(38.438521,55.868851),
+new YMaps.GeoPoint(38.440495,55.866945),
+new YMaps.GeoPoint(38.440538,55.865907),
+new YMaps.GeoPoint(38.445366,55.867246),
+new YMaps.GeoPoint(38.445666,55.867584),
+new YMaps.GeoPoint(38.447979,55.871638),
+new YMaps.GeoPoint(38.457935,55.877911),
+new YMaps.GeoPoint(38.458536,55.877959),
+new YMaps.GeoPoint(38.459051,55.877525),
+new YMaps.GeoPoint(38.460167,55.877187),
+new YMaps.GeoPoint(38.46154,55.877477),
+new YMaps.GeoPoint(38.465826,55.876464),
+new YMaps.GeoPoint(38.466351,55.876108),
+new YMaps.GeoPoint(38.466501,55.875975),
+new YMaps.GeoPoint(38.466716,55.875885),
+new YMaps.GeoPoint(38.467446,55.876023),
+new YMaps.GeoPoint(38.467725,55.876059),
+new YMaps.GeoPoint(38.46854,55.876355),
+new YMaps.GeoPoint(38.468922,55.876415),
+new YMaps.GeoPoint(38.477676,55.877573),
+new YMaps.GeoPoint(38.478878,55.878008),
+new YMaps.GeoPoint(38.479565,55.878635),
+new YMaps.GeoPoint(38.479822,55.879262),
+new YMaps.GeoPoint(38.47965,55.880854),
+new YMaps.GeoPoint(38.479994,55.881433),
+new YMaps.GeoPoint(38.487719,55.893155),
+new YMaps.GeoPoint(38.494585,55.905548),
+new YMaps.GeoPoint(38.499907,55.908778),
+new YMaps.GeoPoint(38.502481,55.908827),
+new YMaps.GeoPoint(38.503168,55.90644),
+new YMaps.GeoPoint(38.50364,55.905717),
+new YMaps.GeoPoint(38.504498,55.905187),
+new YMaps.GeoPoint(38.504713,55.905018),
+new YMaps.GeoPoint(38.505357,55.903812),
+new YMaps.GeoPoint(38.505743,55.903656),
+new YMaps.GeoPoint(38.507996,55.903017),
+new YMaps.GeoPoint(38.510378,55.902523),
+new YMaps.GeoPoint(38.512202,55.900618),
+new YMaps.GeoPoint(38.512609,55.90069),
+new YMaps.GeoPoint(38.512845,55.900678),
+new YMaps.GeoPoint(38.513082,55.900546),
+new YMaps.GeoPoint(38.513103,55.899846)], "constructor#FF3732c85Polyline", "Маршрут до природного курорта Яхонты"));
+       map.addOverlay(createObject("Polyline", [], "constructor#FF3732c85Polyline", ""));
+ 
+ 
+map.addOverlay(createObject("Polyline", [new YMaps.GeoPoint(37.845208,55.777107),
+new YMaps.GeoPoint(37.850615,55.778752),
+new YMaps.GeoPoint(37.881429,55.785911),
+new YMaps.GeoPoint(37.888231,55.78793),
+new YMaps.GeoPoint(37.895612,55.790227),
+new YMaps.GeoPoint(37.904496,55.793007),
+new YMaps.GeoPoint(37.906513,55.793467),
+new YMaps.GeoPoint(37.907586,55.793515),
+new YMaps.GeoPoint(37.922821,55.793636),
+new YMaps.GeoPoint(37.934193,55.794023),
+new YMaps.GeoPoint(37.947926,55.794652),
+new YMaps.GeoPoint(37.954106,55.795328),
+new YMaps.GeoPoint(37.976508,55.797891),
+new YMaps.GeoPoint(37.993545,55.799777),
+new YMaps.GeoPoint(38.012084,55.801952),
+new YMaps.GeoPoint(38.029894,55.803934),
+new YMaps.GeoPoint(38.132891,55.815535),
+new YMaps.GeoPoint(38.203959,55.823653),
+new YMaps.GeoPoint(38.203959,55.823653),
+new YMaps.GeoPoint(38.216962,55.825223),
+new YMaps.GeoPoint(38.253097,55.827639),
+new YMaps.GeoPoint(38.273353,55.828991),
+new YMaps.GeoPoint(38.27979,55.829281),
+new YMaps.GeoPoint(38.301763,55.830247),
+new YMaps.GeoPoint(38.304424,55.830392),
+new YMaps.GeoPoint(38.330366,55.831987),
+new YMaps.GeoPoint(38.334164,55.837831),
+new YMaps.GeoPoint(38.334679,55.83829),
+new YMaps.GeoPoint(38.336117,55.839365),
+new YMaps.GeoPoint(38.336954,55.839968),
+new YMaps.GeoPoint(38.33719,55.840234),
+new YMaps.GeoPoint(38.337533,55.840946),
+new YMaps.GeoPoint(38.337608,55.841472),
+new YMaps.GeoPoint(38.337608,55.841749),
+new YMaps.GeoPoint(38.337554,55.841906),
+new YMaps.GeoPoint(38.337329,55.842516),
+new YMaps.GeoPoint(38.337308,55.842836),
+new YMaps.GeoPoint(38.337383,55.842999),
+new YMaps.GeoPoint(38.338295,55.844327),
+new YMaps.GeoPoint(38.338874,55.845196)], "constructor#249234c85Polyline", "Маршрут до природного курорта Яхонты"));
+       map.addOverlay(createObject("Polyline", [], "constructor#249234c85Polyline", ""));
+ 
+ 
+map.addOverlay(createObject("Polyline", [new YMaps.GeoPoint(38.330366,55.831987),
+new YMaps.GeoPoint(38.335527,55.832252),
+new YMaps.GeoPoint(38.365052,55.83404),
+new YMaps.GeoPoint(38.381274,55.834861),
+new YMaps.GeoPoint(38.383592,55.834861),
+new YMaps.GeoPoint(38.385995,55.834523),
+new YMaps.GeoPoint(38.404535,55.831334),
+new YMaps.GeoPoint(38.406079,55.8309),
+new YMaps.GeoPoint(38.408311,55.830368),
+new YMaps.GeoPoint(38.41801,55.826262),
+new YMaps.GeoPoint(38.419297,55.825875),
+new YMaps.GeoPoint(38.422731,55.825151),
+new YMaps.GeoPoint(38.424705,55.824909),
+new YMaps.GeoPoint(38.426936,55.824812),
+new YMaps.GeoPoint(38.429812,55.824957),
+new YMaps.GeoPoint(38.431485,55.825175),
+new YMaps.GeoPoint(38.434146,55.825658),
+new YMaps.GeoPoint(38.435562,55.826044),
+new YMaps.GeoPoint(38.450154,55.83102),
+new YMaps.GeoPoint(38.465775,55.836527),
+new YMaps.GeoPoint(38.473414,55.839208),
+new YMaps.GeoPoint(38.474916,55.839787),
+new YMaps.GeoPoint(38.485344,55.844182),
+new YMaps.GeoPoint(38.491781,55.847079),
+new YMaps.GeoPoint(38.499023,55.850315),
+new YMaps.GeoPoint(38.498347,55.850834),
+new YMaps.GeoPoint(38.495966,55.850393),
+new YMaps.GeoPoint(38.49573,55.850429),
+new YMaps.GeoPoint(38.495633,55.850484),
+new YMaps.GeoPoint(38.494346,55.85131),
+new YMaps.GeoPoint(38.494313,55.851389),
+new YMaps.GeoPoint(38.494271,55.851479),
+new YMaps.GeoPoint(38.494281,55.85157),
+new YMaps.GeoPoint(38.494292,55.851703),
+new YMaps.GeoPoint(38.4947,55.853531),
+new YMaps.GeoPoint(38.494721,55.853773),
+new YMaps.GeoPoint(38.494775,55.854141),
+new YMaps.GeoPoint(38.494925,55.855125),
+new YMaps.GeoPoint(38.495,55.855619),
+new YMaps.GeoPoint(38.49514,55.85644),
+new YMaps.GeoPoint(38.49529,55.857207),
+new YMaps.GeoPoint(38.495365,55.857611),
+new YMaps.GeoPoint(38.495483,55.858395),
+new YMaps.GeoPoint(38.495504,55.858558),
+new YMaps.GeoPoint(38.495569,55.858661),
+new YMaps.GeoPoint(38.496116,55.859729),
+new YMaps.GeoPoint(38.496481,55.860423),
+new YMaps.GeoPoint(38.497092,55.86128),
+new YMaps.GeoPoint(38.494861,55.86166),
+new YMaps.GeoPoint(38.494592,55.861684),
+new YMaps.GeoPoint(38.493831,55.861744),
+new YMaps.GeoPoint(38.493369,55.861798),
+new YMaps.GeoPoint(38.493058,55.861841),
+new YMaps.GeoPoint(38.492243,55.862034),
+new YMaps.GeoPoint(38.491921,55.862142),
+new YMaps.GeoPoint(38.491685,55.862281),
+new YMaps.GeoPoint(38.489936,55.863458),
+new YMaps.GeoPoint(38.489013,55.864073),
+new YMaps.GeoPoint(38.488745,55.864218),
+new YMaps.GeoPoint(38.48852,55.864345),
+new YMaps.GeoPoint(38.488284,55.864453),
+new YMaps.GeoPoint(38.484486,55.866287),
+new YMaps.GeoPoint(38.481396,55.867796),
+new YMaps.GeoPoint(38.478907,55.86902),
+new YMaps.GeoPoint(38.475881,55.870528),
+new YMaps.GeoPoint(38.474819,55.871132),
+new YMaps.GeoPoint(38.473489,55.871777),
+new YMaps.GeoPoint(38.473103,55.871952),
+new YMaps.GeoPoint(38.472448,55.872223),
+new YMaps.GeoPoint(38.471654,55.87244),
+new YMaps.GeoPoint(38.471236,55.872489),
+new YMaps.GeoPoint(38.471053,55.872495),
+new YMaps.GeoPoint(38.469444,55.87232),
+new YMaps.GeoPoint(38.469283,55.872332),
+new YMaps.GeoPoint(38.469058,55.872392),
+new YMaps.GeoPoint(38.468865,55.872525),
+new YMaps.GeoPoint(38.468092,55.873629),
+new YMaps.GeoPoint(38.468017,55.873695),
+new YMaps.GeoPoint(38.46762,55.873942),
+new YMaps.GeoPoint(38.467459,55.874003),
+new YMaps.GeoPoint(38.467245,55.874099),
+new YMaps.GeoPoint(38.466987,55.87425),
+new YMaps.GeoPoint(38.466483,55.87568),
+new YMaps.GeoPoint(38.466708,55.875873)], "constructor#f832ffc85Polyline", "Маршрут до природного курорта Яхонты"));
+       map.addOverlay(createObject("Polyline", [], "constructor#f832ffc85Polyline", ""));
+ 
+ 
+ 
+ 
+ 
+        
+        function createObject (type, point, style, description) {
+            var allowObjects = ["Placemark", "Polyline", "Polygon"],
+                index = YMaps.jQuery.inArray( type, allowObjects),
+                constructor = allowObjects[(index == -1) ? 0 : index];
+                description = description || "";
+            
+            var object = new YMaps[constructor](point, {style: style, hasBalloon : !!description});
+            object.description = description;
+            
+            return object;
+        }
+    });
+    </SCRIPT>
+ 
+    <style type="text/css">
+        /* Внешний вид балуна (начало)*/
+ 
+            .b-simple-balloon-layout {
+                position: relative;
+ 
+                width: 150px;
+                padding: 10px;
+                margin-left: -10px;
+                
+                border: 1px solid #848877;
+                background: #f8ffe0;
+            }
+ 
+        /* Внешний вид балуна (конец)*/
+ 
+        /* "Хвостик" балуна (начало)*/
+ 
+            .b-simple-balloon-layout .tail {
+                position: absolute;
+                
+                width: 30px;
+                height: 24px;
+                margin-top: 10px;
+                
+                background: url("http://api.yandex.ru/i/maps/tail.png") no-repeat;
+            }
+ 
+        /* "Хвостик" балуна (конец)*/
+ 
+        /* Кнопка закрытия балуна (начало)*/
+ 
+            .b-simple-balloon-layout .close {
+                position: absolute;
+                right: 0;
+                top: 0;
+ 
+                width: 13px;
+                height: 13px;
+                margin-right: 5px;
+                margin-top: 5px;
+                
+                background: url("http://api-maps.yandex.ru/i/0.3/balloon/close.gif") no-repeat;
+                cursor: pointer;
+            }
+ 
+        /* "Кнопка закрытия балуна (конец)*/
+    </style>
+<div class='inside_block'>
+	<div class='tittle'>
+		Схема проезда в комплекс Яхонтовый лес	</div>
+	<div class='tittle'>
+		<h1 style="font-size: 20px;">Расположение комплекса</h1>	</div>
+	<div class='texxt'>
+		<p>
+	<span style="font-size:12px;"><span style="font-family: arial">Загородный</span>&nbsp;комплекс&nbsp;&quot;Яхонтовый Лес&quot; расположен в Ногинском районе Московской области, в 40 км от Москвы, в живописном месте Природный курорт &quot;Яхонты&quot;.</span></p>
+<p>
+	<span style="font-size:12px;">Если вы пользуетесь навигатором, наберите в строке поиска <strong>&quot;г. Ногинск, ул. Герцена&quot;</strong> и следуйте по ул. Герцена прямо, до КПП &quot;Яхонтовый лес&quot;</span>.</p>
+	</div>
+  <div id="map" style="width: 96%; height: 450px; border: 4px solid #fff; margin: 0 auto;"><div id="YMapsID" style="width: 880px;height: 450px"></div></div>
+	<div class='tittle'>
+		Как добраться	</div>
+	<div class='texxt'>
+		<p>
+	<span style="font-size:14px;"><span style="color: rgb(51, 153, 102);"><strong>Проезд на общественном транспорте:</strong></span></span></p>
+<ol>
+	<li>
+		<strong>Курский вокзал.</strong> Электричка Москва-Ногинск (Захарово) до станции г.Ногинск. Далее маршрутное такси № 6-7 до остановки Коверши.</li>
+	<li>
+		Измайловский парк (<b>станция метро &quot;Партизанская&quot;</b>) Экспресс &quot;Москва-Ногинск&quot;, автобус № 322 до остановки г. Ногинск-вокзал. Далее маршрутное такси № 6-7 до остановки Коверши.</li>
+</ol>
+<p>
+	Обратите внимание! На маршрутном такси должна быть отметка маршрута <strong>&laquo;Через Коверши&raquo;</strong> или <strong>&laquo;Коверши&raquo; </strong>&mdash; это маршрутное такси останавливается в 20 метрах от нашего КПП.</p>
+<p>
+	<span style="font-size:14px;"><span style="color: rgb(51, 153, 102);"><strong>Проезд на&nbsp;личном транспорте:</strong></span></span></p>
+<p>
+	<span style="color:#339966;">1-ый Вариант Проезда:</span></p>
+<ul>
+	<li>
+		Следовать от МКАД по Горьковскому шоссе 31 км, повернуть налево по указателю &quot;Ельня&quot;.</li>
+	<li>
+		Через 1,5 км повернуть направо на &quot;Ногинск&quot;. Следовать прямо 6,5 км до первого светофора. На светофоре повернуть под стрелку направо.</li>
+	<li>
+		На следующем светофоре (через 400 м) повернуть налево на ул. Индустриальная.</li>
+	<li>
+		Через 1,7 км на Т-образном перекрестке направо на ул. Советской Конституции.</li>
+	<li>
+		Следовать прямо по главной дороге (3 км) до площади Ленина. По круговому движению второй съезд на 1-ю ул. Ильича.</li>
+	<li>
+		Через 2 км направо по указателю &ldquo;Яхонтовый лес 2 км&rdquo;, далее на развилке по указателю левее, 1 км до КПП комплекса.</li>
+</ul>
+<p>
+	<span style="color:#339966;">&nbsp;2-ой Вариант Проезда:</span></p>
+<ul>
+	<li>
+		Следовать от МКАД по Щелковскому шоссе 11 км, по указателю повернуть направо на Соколово.</li>
+	<li>
+		Следовать до Т-образного перекрестка 14,5 км и повернуть направо. Далее через 4 км повернуть налево у церкви.</li>
+	<li>
+		Через 17 км на Т-образном перекрестке на стрелке направо на ул. Декабристов.</li>
+	<li>
+		На следующем светофоре (через 400 м) повернуть налево на ул. Индустриальная. Через 1,7 км на Т-образном перекрестке направо на ул. Советской Конституции. Следовать прямо по главной дороге (3 км) до площади Ленина.</li>
+	<li>
+		По круговому движению второй съезд на 1-ю ул. Ильича. Через 2 км направо по указателю &ldquo;Яхонтовый лес 2 км&rdquo;, далее на развилке по указателю левее, 1 км до КПП комплекса.</li>
+</ul>
+<p>
+	<span style="color:#339966;">3-ий Вариант Проезда:</span></p>
+<ul>
+	<li>
+		Следовать от МКАД по Горьковскому шоссе 35 км. После развязки с указателем на Ногинск двигаться далее прямо до первого светофора 8 км, на котором повернуть налево.</li>
+	<li>
+		Сразу после поворота снова налево и ехать по главной дороге 1 км, на светофоре прямо, затем через 500 м левее по ул. Пугачева 2,5 км до развилке и правее.</li>
+	<li>
+		На площади Ленина по круговому движению первый съезд на 1-ю ул. Ильича.</li>
+	<li>
+		Через 2 км направо по указателю &ldquo;Яхонтовый лес 2 км&rdquo;, далее на развилке по указателю левее, 1 км до КПП комплекса.</li>
+</ul>
+<p>
+	<span style="font-size:14px;"><span style="color: rgb(51, 153, 102);"><strong>Координаты комплекса для gps навигаторов</strong></span></span></p>
+<p>
+	<strong>N 55*53.735&rsquo;, E 38*30.073&rsquo;</strong><br />
+	&nbsp;</p>
+<p>
+	<span style="color:#a52a2a;"><strong>Синхронизация сроков строительства и реконструкции основных магистралей в Москве и Московской области</strong></span></p>
+<p>
+	<img alt="" src="/_images/images/new-1(1).jpg" style="width: 581px; height: 418px;" /></p>
+<div class="texxt">
+	<p>
+		<span style="font-size:16px;"><span style="color:#2f4f4f;">Реконструкция шоссе Энтузиастов полностью завершится к концу 2016 года</span></span></p>
+	<p>
+		Реконструкция шоссе Энтузиастов будет завершена до конца 2016 года, сообщил заммэра Москвы по&nbsp;градостроительной политике и&nbsp;строительству Марат Хуснуллин.<br />
+		<br />
+		По его словам, работы идут в&nbsp;плановом режиме и&nbsp;осложнений на&nbsp;этом участке не&nbsp;возникало.<br />
+		<br />
+		Отметим, что основной объем работ по&nbsp;реконструкции дороги уже выполнен. Планировалось расширить проезжую часть магистрали до&nbsp;восьми полос движения в&nbsp;оба направления и&nbsp;построить боковые дублеры вдоль шоссе. Кроме того, на&nbsp;остановках общественного транспорта будет устроено 18 карманов для&nbsp;автобусов, троллейбусов и&nbsp;маршрутных такси. К 2017 году возле станции метро &laquo;Шоссе Энтузиастов&raquo; откроют транспортно-пересадочный узел.<br />
+		На сегодняшний момент открыто движение по&nbsp;двум эстакадам. Одна из&nbsp;развязок позволит водителям съезжать с&nbsp;внутренней стороны Северо-Восточной хорды на&nbsp;шоссе Энтузиастов по&nbsp;направлению в&nbsp;область. Вторая&nbsp;&mdash; обеспечивает проезд с&nbsp;шоссе Энтузиастов из&nbsp;центра на&nbsp;внешнюю сторону хорды.<br />
+		<br />
+		Ожидается, что новые эстакады улучшат трафик на&nbsp;проспекте Буденного, а&nbsp;также на&nbsp;участке от&nbsp;проспекта Буденного до&nbsp;улицы Плеханова.</p>
+</div>
+	</div>
+</div>
+<div class='inside_block_sep_with_content_color'></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+				<div class="footer__inner">
+			<div id='bottom-menu-line'>
+				<div id='v-kontakte'>
+					<a href='https://www.facebook.com/YahontovyLes' target="_blank" rel="nofollow"><img src='/_images/_main/fb_icon.png' alt='Facebook' width='31' height='31'></a>
+					<a href='http://vk.com/club32790962' target="_blank" rel="nofollow"><img src='/_images/_main/vkontakte.png' alt='В Контакте' width='31' height='31'></a>
+				</div>
+				<div id='bottom-menu' data-path="/_content/">
+					<a class='bottom-menu-a' href='/_content/_raspolozhenie-kompleksa.php'>Схема проезда</a>
+					<a class='bottom-menu-a' href='/_content/_dohod-ot-nedvizhimosti.php'>Бизнес «под ключ»</a>
+					<a class='bottom-menu-a' href='/_content/_dokumenti.php'>Документация</a>
+					<a class='bottom-menu-a' href='/_content/_site_map.php'>Карта сайта</a>
+								</div>
+				<div id='copyright'>
+					<p>
+						Официальный сайт
+					</p>
+					<p>
+						<b>Адрес комплекса:</b> Московская область Ногинский район, 1км южнее д. Жилино. 
+					</p>
+					<p>
+						<b>Адрес офиса продаж:</b> Москва, Большой Овчинниковский переулок, дом 26, строение 5.
+					</p>
+					<p>
+						<b>Телефон отдела продаж:</b> +7 (495) 960-33-19
+					</p>
+					<p>
+						&copy; 2010-2017 Комплекс здоровья и отдыха «Яхонтовый лес». Все права защищены
+					</p>
+				</div>
+			</div>
+			<div id="pattern-right-bottom"></div>
+			<div id="pattern-left-bottom"></div>
+		</div>
+	</div>
+
+
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40945804-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49048453-1', 'apartamenty-yahonty.ru');
+  ga('send', 'pageview');
+
+</script>
+<!-- /Google Analytics -->
+<!-- Yandex.Metrika counter --><script type="text/javascript">var yaParams = {/*Здесь параметры визита*/};</script><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter10944319 = new Ya.Metrika({id:10944319, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true,params:window.yaParams||{ }}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/10944319" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+<script type="text/javascript" src="/_js/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="/_fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="/_fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/_bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/_js/jshover.js"></script>
+<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
+<script type="text/javascript" src="/_js/js.js"></script>
+
+</body>
+</html>
