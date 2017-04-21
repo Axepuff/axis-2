@@ -35,7 +35,6 @@ function Arifmetics(arr1, arr2) {
   
   function Check(render, val1, val2) {
     var input = render.input || render;
-    console.log(input);
     input.oninput = function() {
       if(input.value != val1 && render.input)  {
         input.style.color = '#f00';
