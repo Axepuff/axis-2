@@ -15,7 +15,7 @@ function Arifmetics(arr1, arr2) {
     this.arrow.className = 'axis__arrow';
     this.arrow.style.width = term*39  + 'px';
     this.arrow.style.height = term*39/6 + 'px';
-    if (render1) {
+    if (document.querySelector('.axis__input')) {
       this.input.style.left = a*39 + this.inputPos  + 'px';
       this.arrow.style.left = a*39 + 35 + 'px';
       axis.appendChild(this.input);
